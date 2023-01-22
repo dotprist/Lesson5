@@ -1,0 +1,187 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SFUIText-Regular.woff2') format('woff2'),
+		url('../fonts/SFUIText-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SFUIText-Bold.woff2') format('woff2'),
+		url('../fonts/SFUIText-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	line-height: 1;
+
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* --------------- */
+
+.text {
+	background-color: green;
+	font-size: 25px;
+	padding: 10px 10px 10px 10px;
+	width: 200px;
+	margin: 0px auto;
+	max-height: 250px;
+	overflow: auto;
+
+
+}
+
+.text2 {
+	background-color: blue;
+	font-size: 20px;
+	padding: 0px 20px;
+	color: white;
+	margin: 20px -50px 10px 50px;
+	max-height: 100px;
+	overflow: visible;
+
+}
+
+.image {
+	background-color: aqua;
+	padding: 50px;
+	margin: 20px;
+
+}
+
+.picture {
+	background-color: black;
+	padding: 20px;
+	width: 50%;
+	display: none;
+
+}
+
+.cool {
+	width: 50%;
+	background-color: brown;
+	padding: 0px;
+	margin: 10px;
+	display: block;
+	max-width: 20%;
+	max-height: 50px;
+	overflow: auto;
+}
+
+.hw {
+	color: chocolate;
+	font-size: 30px;
+	text-align: center;
+}
+
+.hi {
+	color: green;
+	display: block;
+}
+
+.a,
+.b,
+.c {
+	color: blueviolet;
+	width: 200px;
+	height: 200px;
+	padding: 15px;
+	display: inline;
+
+}
+
+.link {
+	font-size: 60px;
+	color: red;
+	margin: 00px 00px 30px 00px;
+	display: inline-block;
+}
+
+.four {
+	background-color: none;
+	color: olive;
+	width: 100px;
+	padding: 10px;
+	margin: 30px;
+	display: inline;
+}
+
+.derevo {
+	padding: 30px;
+	color: brown;
+}
+
+.nomber2 {
+	margin: -25px 00px 00px 00px;
+	color: aqua;
+}
+
+.bigtext {
+	font-size: 20px;
+	color: darkgreen;
+	max-height: 200px;
+	display: block;
+	overflow: auto;
+
+}
